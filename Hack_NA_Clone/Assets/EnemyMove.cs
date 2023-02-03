@@ -12,11 +12,20 @@ public class EnemyMove : MonoBehaviour
     [SerializeField] int BulletStorm;
 
     Vector3 destination;
+    //GameObject bulletObject = BulletPool.Instance.GetPoolObject();
 
     private void Start()
     {
         StartCoroutine(AICoroutine());
     }
+
+    //private void Update()
+    //{
+    //    if (bulletObject.transform.position.x < -10f || bulletObject.transform.position.x > 10f || bulletObject.transform.position.y < -6f || bulletObject.transform.position.y > 6f)
+    //    {
+    //        bulletObject.SetActive(false);
+    //    }
+    //}
 
     IEnumerator AICoroutine()
     {
