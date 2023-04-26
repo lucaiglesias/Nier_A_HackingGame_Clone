@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletPool : MonoBehaviour
-{
-    // Start is called before the first frame update
+{ 
     [SerializeField] List<GameObject> bulletList = new List<GameObject>();
     int poolIndex;
 

@@ -31,6 +31,7 @@ public class EnemyMove : MonoBehaviour
     {
         while (true)
         {
+            //Enemy movement to random places
             yield return new WaitForSeconds(2f);
             destination.x = Random.Range(pointA.x, pointB.x);
             destination.y = Random.Range(pointA.y, pointB.y);
@@ -57,7 +58,7 @@ public class EnemyMove : MonoBehaviour
                     bulletObject.GetComponent<EnemyBullet>().Reset();
                     bulletObject.SetActive(true);
                     angle += 360f / BulletStorm;
-                    if(bulletObject.transform.position.x < -10f || bulletObject.transform.position.x > 10f || bulletObject.transform.position.y < -6f || bulletObject.transform.position.y > 6f)
+                    if (bulletObject.transform.position.x < -10f || bulletObject.transform.position.x > 10f || bulletObject.transform.position.y < -6f || bulletObject.transform.position.y > 6f)
                     {
                         bulletObject.SetActive(false);
                     }

@@ -29,6 +29,6 @@ public class EnemyBullet : MonoBehaviour
     {
         transform.position += transform.up * speed * Time.deltaTime;
         spriteRenderer.color = Color.Lerp(spriteRenderer.color, Color.yellow, 0.1f * Time.deltaTime);
-        //Destroy(gameObject, 10f);
+        //Destroy(gameObject, 20f);
     }
 }
