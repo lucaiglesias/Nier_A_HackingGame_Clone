@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[Serializable] public class DeathTrackerTO
+[Serializable] public class DeathTrackerData
 {
     public string objectId;
     public string Name;
@@ -16,7 +16,7 @@ using UnityEngine;
 
 [Serializable] public class DeathTrackerResults
 {
-    public DeathTrackerTO[] results;
+    public DeathTrackerData[] results;
 }
 
 

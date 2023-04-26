@@ -16,7 +16,11 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 4c433dc798b92fa4bb4fe333ffa48ddf
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 8fab0a3a90a8ec041ae7b201615d2637
+    m_Address: Assets/Scenes/TP9.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: f1290a99d31763b4fa85cf17e8fc8ec1, type: 2}
   m_SchemaSet:

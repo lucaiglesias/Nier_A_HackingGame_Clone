@@ -1,0 +1,1 @@
+{  "strings": [    {      "key": "start_button",      "en": "Start Game",      "fr": "Démarrer le jeu",      "es": "Iniciar juego"    },    {      "key": "options_button",      "en": "Options",      "fr": "Options",      "es": "Opciones"    },    {      "key": "exit_button",      "en": "Exit Game",      "fr": "Quitter le jeu",      "es": "Salir del juego"    }  ]}
